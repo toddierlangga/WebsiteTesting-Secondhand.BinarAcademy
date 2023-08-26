@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do register in a positive category</description>
+   <name>TC.Register.001 (Positive)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbc7bfb1-34e9-406c-9a0f-febc8e85ca3c</testCaseGuid>
+</TestCaseEntity>

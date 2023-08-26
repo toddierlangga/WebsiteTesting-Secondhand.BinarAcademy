@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do update user data in a positive category</description>
+   <name>TC.UpdateUser.001 (Positive)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a910008d-e127-408a-b328-aad9fed430fd</testCaseGuid>
+</TestCaseEntity>
