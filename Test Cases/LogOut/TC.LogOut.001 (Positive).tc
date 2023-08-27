@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do logout in positive category</description>
+   <name>TC.LogOut.001 (Positive)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>776a287d-a458-42c5-b083-a79e891c23c4</testCaseGuid>
+</TestCaseEntity>

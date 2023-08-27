@@ -35,5 +35,7 @@ WebUI.click(findTestObject('Object Repository/Register/Page_SecondHand/input_Pas
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Register/Page_SecondHand/a_Profil Saya'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Register/Page_SecondHand/a_Profil Saya'), 0)
+
 WebUI.closeBrowser()
 

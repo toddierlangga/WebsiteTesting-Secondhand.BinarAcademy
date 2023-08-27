@@ -21,17 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
+WebUI.setText(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_userpassword'), 'JltEQgaE0YE=')
+WebUI.setEncryptedText(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Password_userpassword'), 'JltEQgaE0YE=')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_commit'))
+WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Password_commit'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/Page_SecondHand/a_Profil Saya'), 0)
+WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/a_Profil Saya'))
 
-WebUI.verifyElementPresent(findTestObject('Login/Page_SecondHand/a_Profil Saya'), 0)
+WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/button_Keluar'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/LogOut/Page_SecondHand/a_Masuk'), 0)
+
+WebUI.verifyElementPresent(findTestObject('LogOut/Page_SecondHand/a_Masuk'), 0)
 
 WebUI.closeBrowser()
 

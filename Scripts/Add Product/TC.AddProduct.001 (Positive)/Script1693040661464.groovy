@@ -46,5 +46,7 @@ WebUI.click(findTestObject('Object Repository/Add Product/Page_SecondHand/label_
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Add Product/Page_SecondHand/a_Edit'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Add Product/Page_SecondHand/a_Edit'), 0)
+
 WebUI.closeBrowser()
 

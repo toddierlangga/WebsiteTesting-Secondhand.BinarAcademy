@@ -56,5 +56,7 @@ WebUI.click(findTestObject('Object Repository/Update User Data/Page_SecondHand/i
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Update User Data/Page_SecondHand/a_Profil Saya'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Update User Data/Page_SecondHand/a_Profil Saya'), 0)
+
 WebUI.closeBrowser()
 
