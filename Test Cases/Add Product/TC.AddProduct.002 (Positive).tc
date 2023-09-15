@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To ensure that users can see preview of the item that user want to sell something.</description>
+   <name>TC.AddProduct.002 (Positive)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>460ca66d-f281-4144-9ac1-00b7cf72867d</testCaseGuid>
+</TestCaseEntity>

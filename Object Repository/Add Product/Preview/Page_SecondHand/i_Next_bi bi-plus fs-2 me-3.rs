@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Next_bi bi-plus fs-2 me-3</name>
+   <tag></tag>
+   <elementGuidId>cbd417aa-1819-44dd-9a3d-5564b1b4e69a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.bi.bi-plus.fs-2.me-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>abcd583c-8a09-4eb0-a5cf-34a7944bfb9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-plus fs-2 me-3</value>
+      <webElementGuid>8dfa884e-aed6-4c94-a63a-eb7c0caa3682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/section[@class=&quot;pt-5 mt-5&quot;]/div[@class=&quot;sticky-bottom d-flex align-items-center justify-content-center py-4&quot;]/a[@class=&quot;btn btn-primary btn-lg rounded-4 d-inline-flex align-items-center justify-content-space-between px-5&quot;]/i[@class=&quot;bi bi-plus fs-2 me-3&quot;]</value>
+      <webElementGuid>bc577325-e14a-4207-8001-33645644d4e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+      <webElementGuid>e5e403c7-4a93-4d9a-b1c3-038c1d175faa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
