@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>To ensure the item will be sorted by the selected category.</description>
-   <name>TC.Category.001 (Positive)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>105a3eba-6472-4206-9950-51d4fb44dac6</testCaseGuid>
-</TestCaseEntity>

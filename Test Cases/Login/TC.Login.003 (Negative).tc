@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do login with wrong email</description>
+   <name>TC.Login.003 (Negative)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5951b6fd-b6e2-43ea-a849-ab2d8d2a9f51</testCaseGuid>
+</TestCaseEntity>
