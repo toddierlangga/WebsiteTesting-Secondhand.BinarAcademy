@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/a_Masuk'))
 
 WebUI.setText(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Password_userpassword'), 'JltEQgaE0YE=')
+WebUI.setText(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Password_userpassword'), 'testing')
 
 WebUI.click(findTestObject('Object Repository/LogOut/Page_SecondHand/input_Password_commit'))
 

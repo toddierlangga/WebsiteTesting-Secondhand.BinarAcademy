@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do login without fill password field</description>
+   <name>TC.Login.004 (Negative)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>833dabff-ecf1-4727-afbf-35e02cbf3e9f</testCaseGuid>
+</TestCaseEntity>

@@ -29,7 +29,7 @@ WebUI.setText(findTestObject('Object Repository/Register/Page_SecondHand/input_N
 
 WebUI.setText(findTestObject('Object Repository/Register/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/Page_SecondHand/input_Password_userpassword'), 'JltEQgaE0YE=')
+WebUI.setText(findTestObject('Object Repository/Register/Page_SecondHand/input_Password_userpassword'), 'testing')
 
 WebUI.click(findTestObject('Object Repository/Register/Page_SecondHand/input_Password_commit'))
 

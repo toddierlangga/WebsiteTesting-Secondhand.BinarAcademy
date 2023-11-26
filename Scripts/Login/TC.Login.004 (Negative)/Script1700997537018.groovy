@@ -21,17 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Login/Login Without Password/Page_SecondHand/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
+WebUI.setText(findTestObject('Object Repository/Login/Login Without Password/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_userpassword'), 'testing')
+WebUI.click(findTestObject('Object Repository/Login/Login Without Password/Page_SecondHand/input_Password_commit'))
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_commit'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/Page_SecondHand/a_Profil Saya'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Login/Page_SecondHand/a_Profil Saya'), 0)
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -21,17 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://secondhand.binaracademy.org/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_SecondHand/input_Email_useremail'), 'websitetest@testing.com')
+WebUI.setText(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/input_Email_useremail'), 
+    'websitetest@testing')
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_userpassword'), 'testing')
+WebUI.setText(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/input_Password_userpassword'), 
+    'testing')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_SecondHand/input_Password_commit'))
+WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/Page_SecondHand/a_Profil Saya'), 0)
+WebUI.click(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/input_Password_commit'))
 
-WebUI.verifyElementPresent(findTestObject('Login/Page_SecondHand/a_Profil Saya'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/div_Invalid Email or password'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Login/Login With Incorrect Email Format/Page_SecondHand/div_Invalid Email or password'), 
+    0)
 
 WebUI.closeBrowser()
 

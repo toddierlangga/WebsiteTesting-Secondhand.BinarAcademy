@@ -25,8 +25,7 @@ WebUI.click(findTestObject('Object Repository/Login/Login Wrong Email/Page_Secon
 
 WebUI.setText(findTestObject('Object Repository/Login/Login Wrong Email/Page_SecondHand/input_Email_useremail'), 'websitetest123@testing.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Login Wrong Email/Page_SecondHand/input_Password_userpassword'), 
-    'JltEQgaE0YE=')
+WebUI.setText(findTestObject('Object Repository/Login/Login Wrong Email/Page_SecondHand/input_Password_userpassword'), 'testing')
 
 WebUI.click(findTestObject('Object Repository/Login/Login Wrong Email/Page_SecondHand/input_Password_commit'))
 
